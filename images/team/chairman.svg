@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1a130d"/><stop offset="1" stop-color="#2a1e13"/></linearGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d2a358"/><stop offset="1" stop-color="#e2b467"/></linearGradient>
+<linearGradient id="fig" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d2a358"/><stop offset="1" stop-color="#e2b467"/></linearGradient>
+</defs>
+<rect width="400" height="400" rx="16" fill="url(#bg)"/>
+<circle cx="200" cy="200" r="150" fill="none" stroke="url(#ring)" stroke-width="3" stroke-opacity="0.5"/>
+<g fill="url(#fig)" opacity="0.92">
+<circle cx="200" cy="160" r="62"/>
+<path d="M92 340 C92 250 130 212 200 212 C270 212 308 250 308 340 Z"/>
+</g>
+<text x="200" y="370" font-family="Segoe UI, sans-serif" font-size="20" fill="#efe2c8" text-anchor="middle">chairman</text>
+</svg>
